@@ -53,10 +53,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "FK" => "263699451@qq.com" }
-  # Or just: s.author    = "FK"
-  # s.authors            = { "FK" => "263699451@qq.com" }
-  # s.social_media_url   = ""
+  s.author             = { "fu kai" => "263699451@qq.com" }
+  # Or just: s.author    = "fu kai"
+  # s.authors            = { "fu kai" => "263699451@qq.com" }
+  # s.social_media_url   = "http://twitter.com/CasaTaloyum"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -91,11 +91,11 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "__ProjectName__/__ProjectName__/**/*.{h,m}"
+  s.source_files  = "__ProjectName__/__ProjectName__/**/*.{h,m,swift}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
-
+  # s.prefix_header_file = 'xxx/PrefixHeader.pch'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
